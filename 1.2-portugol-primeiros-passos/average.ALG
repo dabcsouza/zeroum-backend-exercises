@@ -1,13 +1,12 @@
 Algoritmo "calculaMedia"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 06/04/2022
 Var
 name: caractere
-n1: real
-n2: real
+n1, n2, n3: real
 
 Inicio
 
@@ -17,6 +16,8 @@ escreva("Insira n1: ")
 leia(n1)
 escreva("Insira n2: ")
 leia(n2)
-escreva("A media do aluno ", name, " foi ", (n1 + n2)/2)
+escreva("Insira n3: ")
+leia(n3)
+escreva("A media do aluno ", name, " foi ", (n1 + n2 + n3)/3)
 
 Fimalgoritmo
